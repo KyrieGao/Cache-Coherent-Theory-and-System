@@ -1,34 +1,12 @@
-# 中国科学技术大学学位论文 LaTeX 模板
+# Cache-Coherent-and-A-Quantitative-Approach（高速缓存一致性和量化分析）
 
-[![GitHub release](https://img.shields.io/github/release/ustctug/ustcthesis/all.svg)](https://github.com/ustctug/ustcthesis/releases/latest)
-[![GitHub commits](https://img.shields.io/github/commits-since/ustctug/ustcthesis/latest.svg)](https://github.com/ustctug/ustcthesis/commits/master)
-[![Build](https://github.com/ustctug/ustcthesis/workflows/build/badge.svg)](https://github.com/ustctug/ustcthesis/actions)
+建立这个仓库的初衷是通过学习和总结计算机体系结构中的高速缓存子系统，将其归纳总结；同时为了更好的将其应用在计算机芯片架构的设计中，针对比较重要的缓存方法通过建模的方式进行量化分析。所以仓库最终呈现出来的是一份关于高速缓存系统的文档以及在此基础上的建模和量化分析的系统。
+## 文档介绍
+关于文档，首先有一下说明：
 
-本项目是中国科学技术大学的学位论文 LaTeX 模板 ustcthesis，按照最新版的
-《[研究生学位论文撰写手册](https://gradschool.ustc.edu.cn/static/oldsite/ylb/material/xw/wdxz/32.pdf)》
-和
-《[关于本科毕业论文（设计）格式和统一封面的通知](https://www.teach.ustc.edu.cn/notice/notice-teaching/11530.html)》
-的要求编写，兼容最新版的 TeX Live、MacTeX 、MiKTeX 发行版，支持跨平台使用。
+1、为了内容及必要公式的严谨性，文档的排版采用Latex的格式，采用的是中国科学技术大学的学位论文LaTeX模板[ustcthesis](https://github.com/ustctug/ustcthesis/releases)，在此基础上进行相应的修改。
 
-注意：
-
-1. 使用说明文档 `ustcthesis-doc.pdf` 在发布版中附带，用户也可自行编译；**使用模板前应仔细阅读**。
-
-2. 本模板要求 TeX Live、MacTeX、MiKTeX 不低于 2017 年的发行版，
-并且尽可能升级到最新。安装和升级方法见
-[新手指南](https://github.com/ustctug/ustcthesis/wiki/新手指南)。
-
-3. **不支持** [CTeX 套装](https://github.com/ustctug/ustcthesis/wiki/常见问题#3-模板支持用-ctex-套装编译吗)。
-
-
-## 下载地址
-
-- GitHub Releases：https://github.com/ustctug/ustcthesis/releases
-
-- 校内镜像：https://git.lug.ustc.edu.cn/ustctug/ustcthesis
-
-- 研究生院网站（版本较旧，不推荐）：https://gradschool.ustc.edu.cn/column/65
-
+2、写文档是一个繁重的任务，不仅需要表达的准确性，同时要进行校准、更新。Doc目录下是完整的可编译的Latex项目，如果你对高速缓存一致性感兴趣，欢迎一起合作。
 
 ## 编译文档
 
@@ -51,27 +29,6 @@
    make            # 编译生成论文 main.pdf
    make clean      # 删除编译过程中生成的临时文件
    ```
-
-## 反馈问题
-
-如果发现模板有问题，请按照以下步骤操作：
-
-1. 阅读学校的标准，判断是否符合学校的要求；
-2. 阅读 [常见问题 FAQ](https://github.com/ustctug/ustcthesis/wiki/常见问题)；
-3. 将 TeX 发行版和宏包升级到最新，并且将模板升级到 Github 上最新版本，
-查看问题是否已经修复；
-4. 在 [GitHub Issues](https://github.com/ustctug/ustcthesis/issues)
-中搜索该问题的关键词；
-5. 在 [GitHub Issues](https://github.com/ustctug/ustcthesis/issues)
-中提出新 issue，并回答以下问题：
-    - 使用了什么版本的 TeX Live / MacTeX / MiKTeX ？
-    - 具体的问题是什么？
-    - 正确的结果应该是什么样的？
-    - 是否应该附上相关源码或者截图？
-
-如果导师或者院系在格式上有额外的要求，请将老师的邮件转发给模板作者。
-作者会考虑增加接口以便修改格式。
-
 
 ## 更多资料
 

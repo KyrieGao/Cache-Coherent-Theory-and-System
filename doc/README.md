@@ -10,15 +10,15 @@
 
 ## 编译文档
 
-- 编译模板的使用说明文档 `ustcthesis-doc.pdf`：
+- 编译模板的使用说明文档 `ustcthesis-doc.pdf`，这是关于整个模版的说明文档：
    ```
    latexmk -xelatex ustcthesis-doc.tex
    ```
-- 编译论文 `main.pdf`：
+- 编译文档 `缓存一致性和量化分析.pdf`：
    ```
-   latexmk -xelatex main.tex
+   latexmk -xelatex 缓存一致性和量化分析.tex
    ```
-- 如需清理论文编译过程中的临时文件，可以：
+- 如需清理文档编译过程中的临时文件，可以：
    ```
    latexmk -c
    ```
@@ -26,7 +26,7 @@
 - 以上编译过程也可以用 `make` 工具：
    ```
    make doc        # 编译生成 ustcthesis-doc.pdf
-   make            # 编译生成论文 main.pdf
+   make            # 编译生成论文 缓存一致性和量化分析.pdf
    make clean      # 删除编译过程中生成的临时文件
    ```
 

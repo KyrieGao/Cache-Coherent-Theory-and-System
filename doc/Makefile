@@ -1,4 +1,4 @@
-MAIN = main
+MAIN = Cache-Coherent-and-A-Quantitative-Approach
 NAME = ustcthesis
 CLSFILES = $(NAME).cls
 BSTFILES = $(NAME)-numerical.bst $(NAME)-authoryear.bst $(NAME)-bachelor.bst
